@@ -1,0 +1,22 @@
+# Node / Frontend dependencies
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python / Backend junk
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/env/
+backend/venv/
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker logs
+*.log
